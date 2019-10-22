@@ -1,0 +1,98 @@
+label#thumbnail{
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumbnail input {
+    display: none;
+}
+
+label#thumbnail.has-thumb{
+    border:none;
+}
+
+label#thumbnail.has-thumb img {
+    display: none;
+}
+
+.content {
+    width: 50%;
+    background: #FEFEFE;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 30px;
+    align-items: center;
+    height: 80vh;
+    align-self: center;
+  }
+  
+  .content > p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .content form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  
+  }
+  
+  .content form label {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .content form label span {
+    font-weight: normal;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .content form input {
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+  
+  .content button.btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(25, 24, 31);
+    color: #FFF;
+    cursor: pointer;
+    border-bottom: 20px;
+  }
+  
+  .content button.btn:hover {
+    background: rgb(40, 39, 47);
+  }
+
+.success-msg{
+  margin-top: 10px;
+  display: flex;
+  background: #155724;
+  width: 100%;
+  height: 40px;
+  color: #FEFEFE;
+  align-items: center;
+  justify-content: center;
+  
+}

@@ -1,0 +1,107 @@
+.container main{
+    overflow: auto;
+}
+.container{
+
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container aside {
+    position: fixed;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.container aside header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(25, 24, 31);
+    width: 100%;
+    height: 10vh;
+}
+
+.container aside h1{
+    color: #FEFEFE;
+    font-size: 32px;
+}
+
+.container aside ul{
+    height: 90vh;
+    background:rgb(40, 39, 47)  ;
+    list-style: none;
+}
+li {
+    margin-top: 20px;
+}
+
+.container aside ul li a {
+    width: 100%;
+    color: #FEFEFE;
+    height: 80px;
+    background: rgb(40, 39, 47);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;    
+}
+.container aside ul li a p {
+    margin-left: 10px ;
+}
+
+.container aside ul li a:hover{
+
+    background:rgb(25, 24, 31) ;
+
+}
+
+.btn{
+    border: none;
+    
+}
+
+.btn:hover{
+    background:rgb(25, 24, 31) ;
+
+}
+
+.container main {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.container main header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(25, 24, 31);
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    box-shadow: 2px 2px  2px rgba(0, 0, 0, 0.2);
+}
+.container main header h2 {
+    font-size: 26px;
+    color: #FEFEFE;
+}
+
+.content-routes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    margin-left: 250px;
+  }

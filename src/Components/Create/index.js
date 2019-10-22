@@ -59,11 +59,11 @@ export default function Create() {
           onChange = {(e)=> {setTitle(e.target.value)}}
         />
 
-        <label htmlFor = "descs"> * Descrição do projeto: <span>(separada por " - ")</span></label>
+        <label htmlFor = "descs"> * Descrições do projeto: <span>(separada por " - ")</span></label>
         
         <input 
           id = "descs"
-          placeholder = "Título..."
+          placeholder = "Descrições..."
           value = {descs}
           onChange = {(e)=> {setDescs(e.target.value)}}
         />

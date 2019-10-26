@@ -1,7 +1,7 @@
 .main-container {
     max-width: 980px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 0; 
     text-align: center;
     
 }
@@ -43,4 +43,62 @@
     color: #999;
     line-height: 18px;
     margin-top: 1px;
+}
+
+.main-container button.destroy {
+    border: 0;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(25, 24, 31);
+    color: #FFF;
+    cursor: pointer;
+    border-bottom: 20px;
+}
+
+.main-container footer button.btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 10px;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #FFF;
+    cursor: pointer;
+    border-bottom: 20px;
+}
+
+.success-msg{
+    margin-top: 10px;
+    display: flex;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.main-container button.cancel {
+    border: 0;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #FEFEFE;
+    color: rgb(25, 24, 31);
+    cursor: pointer;
+    border-bottom: 20px;
 }
